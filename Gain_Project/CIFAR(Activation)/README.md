@@ -15,5 +15,5 @@ ResNet모델은 총 3개의 스택(stacks)으로 이뤄져 있으며, 각 스택
 - 이 코드에서는 size=44, stacks=3으로 설정되어 있으므로, 총 약 44개의 convolution layer로 이뤄지며,
 - residual_blocks는 (size - 2) // 6로 계산되므로, 
 - 44개의 Residual Block을 갖습니다. 
-이는 size가 44이고, 각각의 스택에서 6개의 층의 Residual Block이 3개 쌓인 구조이므로 
-따라서 이 ResNet 모델은 총 44 * 3 + 2 = 134개의 레이어를 갖습니다.
+- 이는 size가 44이고, 각각의 스택에서 6개의 층의 Residual Block이 3개 쌓인 구조이므로 
+- 따라서 이 ResNet 모델은 총 44 * 3 + 2 = 134개의 레이어를 갖습니다.
