@@ -1,5 +1,6 @@
 # CIFAR-10 Result
 <img width="1862" alt="스크린샷 2023-04-15 오후 10 15 08" src="https://user-images.githubusercontent.com/104286511/232226137-acf65e05-85b6-4026-a3f4-886b35fb7bc6.png">
+<img width="996" alt="스크린샷 2023-04-16 오후 7 56 29" src="https://user-images.githubusercontent.com/104286511/232304541-944ade5c-17a4-4073-9c11-58a06499a92a.png">
 
 
 # CIFAR-100 Result
