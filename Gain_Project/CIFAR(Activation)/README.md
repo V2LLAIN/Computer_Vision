@@ -4,6 +4,7 @@
 
 
 # CIFAR-100 Result
+<img width="1862" alt="스크린샷 2023-04-17 오전 12 45 08" src="https://user-images.githubusercontent.com/104286511/232324330-b1b66f39-dd67-47f6-bf5b-f98ccd26995c.png">
 
 
 
