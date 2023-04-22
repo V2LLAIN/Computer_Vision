@@ -1,5 +1,5 @@
 # gradient histogram
-
+![gradient비교](https://user-images.githubusercontent.com/104286511/233762916-764cf502-17fc-4b2e-969e-31963e8124b8.png)
 
 
 
