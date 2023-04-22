@@ -1,14 +1,17 @@
+# gradient histogram
+
+
+
+
 # CIFAR-10 Result
 
-
-### CIFAR-10 gradient histogram
 
 
 
 # CIFAR-100 Result
 
 
-### CIFAR-100 gradient histogram
+
 
 
 
