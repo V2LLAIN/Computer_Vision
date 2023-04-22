@@ -10,7 +10,7 @@
 
 # CIFAR-100 Result
 <img width="1235" alt="CIFAR100" src="https://user-images.githubusercontent.com/104286511/233762793-fbb284af-6895-4181-b3b9-7ec96c005a87.png">
-<img width="1015" alt="CIFAR-100" src="https://user-images.githubusercontent.com/104286511/233762797-c0d3105d-aa75-43c3-8f03-8a6da7e9bf00.png">
+<img width="926" alt="스크린샷 2023-04-22 오후 1 38 59" src="https://user-images.githubusercontent.com/104286511/233762859-f1faa61a-05cd-4825-a293-10eb1de23431.png">
 
 
 
