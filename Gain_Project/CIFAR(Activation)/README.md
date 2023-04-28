@@ -1,6 +1,3 @@
-# Activation graph
-![그래프](https://user-images.githubusercontent.com/104286511/235117495-c997345e-313c-4271-a5c8-7c9d81d4c0d8.png) 
-
 # gradient histogram
 <img width="476" alt="스크린샷 2023-04-28 오후 6 59 48" src="https://user-images.githubusercontent.com/104286511/235118064-0d362dec-4af5-409b-aa2d-46c4f5605f8a.png">
 
@@ -29,3 +26,7 @@
 - 200 epochs with 128 batch sizes
 
 - Data Augmentation: flipping images vertically and horizontally
+
+
+# Activation graph
+![그래프](https://user-images.githubusercontent.com/104286511/235117495-c997345e-313c-4271-a5c8-7c9d81d4c0d8.png) 
