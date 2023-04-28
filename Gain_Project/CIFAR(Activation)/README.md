@@ -1,5 +1,5 @@
 # Activation graph
-![그래프](https://user-images.githubusercontent.com/104286511/235117495-c997345e-313c-4271-a5c8-7c9d81d4c0d8.png)
+![그래프](https://user-images.githubusercontent.com/104286511/235117495-c997345e-313c-4271-a5c8-7c9d81d4c0d8.png) 
 
 # gradient histogram
 ![gradient비교](https://user-images.githubusercontent.com/104286511/233762916-764cf502-17fc-4b2e-969e-31963e8124b8.png)
