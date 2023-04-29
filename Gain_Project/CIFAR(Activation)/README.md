@@ -1,6 +1,7 @@
 # gradient histogram
 <img width="476" alt="스크린샷 2023-04-28 오후 6 59 48" src="https://user-images.githubusercontent.com/104286511/235118064-0d362dec-4af5-409b-aa2d-46c4f5605f8a.png">
 
+![히스토그램](https://user-images.githubusercontent.com/104286511/235304240-9baff9e3-1f1d-464d-bca2-76c8381f1bc7.png)
 
 
 # CIFAR-10 Result
