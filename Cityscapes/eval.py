@@ -10,7 +10,7 @@ print("사전 학습된 가중치 업로드 완료 ")
 
 new_model.eval()
 
-save_path = args.save_path
+save_path = args.test_save_path
 os.makedirs(save_path, exist_ok=True)
 
 with torch.no_grad():
