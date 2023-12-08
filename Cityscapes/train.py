@@ -1,4 +1,5 @@
-import os, torch, tqdm, datetime
+import os, torch, datetime
+from tqdm import tqdm
 import numpy as np
 import torch.nn as nn
 from config import args
