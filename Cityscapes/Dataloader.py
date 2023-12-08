@@ -28,14 +28,14 @@ test_loader = DataLoader(test_dataset,
 
 
 # 데이터 구성 살펴보기 1
-print("train data 개수 : {}".format(len(train_dataset)))
-print("test data 개수 : {}".format(len(test_dataset)))
+print("train data 개수 : {}".format(len(train_dataset)).encode('utf-8'))
+print("test data 개수 : {}".format(len(test_dataset)).encode('utf-8'))
 # Train 기준
 
 cnt = 0
 for x, y in train_dataset:
-    print('입력 영상 구조: {}'.format(x.shape)) # 3 x H x W RGB 영상
-    print('정답 영상 구조: {}'.format(y.shape)) # H X W label map
+    print('입력 영상 크기: {}'.format(x.shape).encode('utf-8')) # 3 x H x W RGB 영상
+    print('정답 영상 구조: {}'.format(y.shape).encode('utf-8')) # H X W label map
     cnt += 1
     if(cnt == 1):
         break
