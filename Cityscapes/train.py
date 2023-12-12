@@ -11,7 +11,7 @@ DEVICE = args.DEVICE
 LEARNING_RATE = args.LEARNING_RATE
 model = UNet_with_Attention().to(args.DEVICE)
 optimizer = torch.optim.AdamW(model.parameters(), lr=LEARNING_RATE)
-criterion = nn.CrossEntropyLoss()
+criterion = nn.CrossEntropyLoss(ignore_index=255)
 print(model)
 
 def train(epoch=0):
@@ -110,6 +110,7 @@ def train(epoch=0):
         log.close()
 
 if __name__ == '__main__':
+    torch.cuda.empty_cache()
     EPOCHS = args.EPOCHS
     class_num = args.class_num
     smooth= args.smooth
