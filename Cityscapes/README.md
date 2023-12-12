@@ -10,4 +10,7 @@ in my case, host name is root
 ### How to Train? 
     nohup python3 train.py &
 #### (you can check in nohup.out)
-#### (you can check by using jobs in terminal)
+#### (you can check by using
+    jobs
+#### then you can see console like below
+[1]+  Running                 nohup python3 train.py &
