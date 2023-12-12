@@ -1,11 +1,8 @@
-import cv2, torch, os
-from tqdm import tqdm
-from torch.nn import functional as F
-from train import UNet_with_Attention
-from Dataloader import test_loader
+import cv2
+from train import *
 from segmentation_map import *
 
-new_model = UNet_with_Attention().to(args.DEVICE)
+new_model = UNet_with_Attention().to(DEVICE)
 checkpoint_path = args.checkpoint_path
 checkpoint = torch.load(checkpoint_path)
 new_model.load_state_dict(checkpoint)
@@ -13,13 +10,13 @@ print("사전 학습된 가중치 업로드 완료 ")
 
 new_model.eval()
 
-save_path = args.test_save_path
+save_path = args.eval_save_path
 os.makedirs(save_path, exist_ok=True)
 
 with torch.no_grad():
   for idx, batch in enumerate(tqdm(test_loader)):
     X, y, name = batch # here 's' is the name of the file stored in the root directory
-    X, y = X.to(args.DEVICE), np.array(y.to('cpu')[0])
+    X, y = X.to(DEVICE), np.array(y.to('cpu')[0])
     predictions = new_model(X)
 
     predictions = F.softmax(predictions, dim=1)
