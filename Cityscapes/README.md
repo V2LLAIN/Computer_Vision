@@ -6,3 +6,8 @@ in my case, host name is root
 
     scp -P 20163 cityscapes.zip root@서버주소:/root/Study/Computer Vision/
 
+#
+### How to Train? 
+    nohup python3 train.py &
+#### (you can check in nohup.out)
+#### (you can check by using jobs in terminal)
