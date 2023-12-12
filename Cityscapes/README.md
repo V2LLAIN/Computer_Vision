@@ -12,5 +12,5 @@ in my case, host name is root
 #### (you can check in nohup.out)
 #### (you can check by using
     jobs
-#### then you can see console like below
 [1]+  Running                 nohup python3 train.py &
+#### then you can see console like above
